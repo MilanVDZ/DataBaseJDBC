@@ -36,7 +36,8 @@ public class MainDBClass {
                 System.out.println("Invalid choice.");
             }else {
                 while (choiceTwo==9) {
-                    System.out.println("What do you want to look at? \n1: See All \n2: See One \n3: Add One \n4: Edit One \n5: Delete One\n0: End");
+                    System.out.println("What do you want to look at? \n1: See All \n2: See One \n3: Add One \n4: " +
+                                        "Edit One \n5: Delete One\n0: End");
                     choiceTwo = scanner.nextInt();
                     if (choiceTwo==0)break;
                     if(choiceTwo<1||choiceTwo>5){
